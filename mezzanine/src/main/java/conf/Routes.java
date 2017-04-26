@@ -13,7 +13,7 @@ public class Routes implements ApplicationRoutes {
     public void init(Router router) {  
         
         router.GET().route("/").with(ApplicationController::index);
-        router.GET().route("/hello_world.json").with(ApplicationController::helloWorldJson);
+        router.GET().route("/welcome.json").with(ApplicationController::helloWorldJson);
         
  
         ///////////////////////////////////////////////////////////////////////
